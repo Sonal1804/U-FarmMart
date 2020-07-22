@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailsActivity">
+
+    <ImageView
+        android:id="@+id/product_image_details"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/product_name_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_image_details"
+        android:hint="Product Name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/product_qantity_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_name_details"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:hint="Enter Product Quantity in Kgs..."
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/product_bid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_qantity_details"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:hint="Enter Product Bid Price..."
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/pedate"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Product End Date"
+        android:textSize="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_below="@+id/product_bid"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/petime"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240sp"
+        android:text="Product End Time"
+        android:layout_below="@id/product_bid"
+        android:textSize="15dp"
+        android:layout_marginRight="2dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/pd_add_to_cart_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:text="Add to Cart"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        />
+
+</RelativeLayout>

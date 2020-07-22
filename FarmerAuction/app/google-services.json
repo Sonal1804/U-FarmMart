@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73304553412",
+    "firebase_url": "https://farmeracution.firebaseio.com",
+    "project_id": "farmeracution",
+    "storage_bucket": "farmeracution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73304553412:android:46c45985cdf6117ad59691",
+        "android_client_info": {
+          "package_name": "com.example.sayali.farmerauction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73304553412-fkou2bif4njf2fo3cveo1176r75lp0b3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sayali.farmerauction",
+            "certificate_hash": "9bb24e9bdf2784d06b8847901d1fa1e71c569551"
+          }
+        },
+        {
+          "client_id": "73304553412-2pnostbfqhj3hgabvler00ktskelhlf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa6f34iYaPhokQu7syMYCLwlF15EHPEDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73304553412-2pnostbfqhj3hgabvler00ktskelhlf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

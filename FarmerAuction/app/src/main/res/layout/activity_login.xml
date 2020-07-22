@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivLoginApplogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logoimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/etLoginPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivLoginApplogo"
+        android:background="@drawable/textbox"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etLoginPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLoginPhone"
+        android:background="@drawable/textbox"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:layout_marginTop="6dp"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/liner_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/etLoginPass"
+        android:layout_marginTop="5dp">
+
+        <CheckBox
+            android:id="@+id/cbRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:layout_marginLeft="17dp"
+            />
+
+        <TextView
+            android:id="@+id/tvForgetPassLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:visibility="invisible"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLoginLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner_layout_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:text="Customer Login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvAdminPanelLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginLog"
+        android:layout_marginLeft="238dp"
+        android:layout_marginTop="3dp"
+        android:text="I'm a Farmer?"
+
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNotAdminPanelLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginLog"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="3dp"
+        android:text="I'm not a Farmer? "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+
+
+
+
+</RelativeLayout>
